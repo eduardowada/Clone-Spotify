@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify</title>
+  <link rel="icon" href="imagens/favicon.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap por CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Bootstrap Icons por CDN -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="imagens/spotify.svg" alt="Logo do Spotify" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Premium</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Ajuda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Baixar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light">|</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Inscrever-se</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Entrar</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="announcement">
+      <div class="container">
+        <div id="carrosel" class="carousel slide">
+          <div class="carousel-inner">
+            <!-- Slide número 1 -->
+            <div class="carousel-item active text-center">
+              <h1 class="display-1 fw-bold text-light">Música para todos </h1>
+              <button class="btn btn-custom rounded-pill text-uppercase mt-3">
+                Aproveite o Spotify Free
+              </button>
+              <button class="btn btn-outline-light rounded-pill mt-3">
+                Obter Spotify Premium
+              </button>
+            </div>
+
+            <!-- Slide número 2 -->
+            <div class="carousel-item text-center">
+              <h1 class="display-1 fw-bold text-light">As melhores rádios</h1>
+              <button class="btn btn-outline-light rounded-pill mt-3">
+                Ouça agora <i class="bi bi-music-note-beamed"></i> 
+              </button>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carrosel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carrosel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container mt-4 mb-4 d-flex justify-content-center">
+        <div class="about-images d-flex justify-content-center gap-2 flex-wrap">
+          <img src="imagens/img1.jpg" alt="image 1" class="img-fluid" />
+          <img src="imagens/img2.jpg" alt="image 2" class="img-fluid" />
+          <img src="imagens/img3.jpg" alt="image 3" class="img-fluid" />
+          <img src="imagens/img4.jpg" alt="image 4" class="img-fluid" />
+        </div>
+        <div class="about-content">
+          <h2 class="fw-bold color-purple">O que o Spotify tem?</h2>
+          <h4 class="fw-bolder color-purple">Músicas</h4>
+          <p>
+            O Spotify tem milhões de músicas. Escute seus sons favoritos,
+            descubra novas músicas e reúna seus favoritos em um só lugar.
+          </p>
+          <h4 class="fw-bolder color-purple">Playlists</h4>
+          <p>
+            No Spotify você encontra uma playlist para cada momento. Todas
+            feitas por fanáticos e especialistas da música.
+          </p>
+          <h4 class="fw-bolder color-purple">Novos lançamentos</h4>
+          <p>
+            Escute os novos lançamentos de singles e álbuns da semana e veja o
+            que está bombando no Top 50.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="utility">
+      <div class="container d-flex">
+        <div class="utility-content">
+          <h2 class="fw-bold text-light mt-3">Fácil</h2>
+          <h4 class="fw-bolder color-aqua">Buscar</h4>
+          <p class="text-light">
+            Já sabe o que escutar? É só procurar e apertar o play.
+          </p>
+          <h4 class="fw-bolder color-aqua">Navegar</h4>
+          <p class="text-light">
+            Veja os novos lançamentos, o que está bombando nas paradas e as
+            melhores playlists para o seu momento.
+          </p>
+          <h4 class="fw-bolder color-aqua">Descobrir</h4>
+          <p class="text-light">
+            Curta músicas novas toda segunda-feira com uma playlist
+            personalizada para você. Ou relaxe e curta uma das rádios.
+          </p>
+        </div>
+        <div class="utility-images">
+          <img src="imagens/iphone1.png" alt="image iphone" />
+          <img src="imagens/iphone2.png" alt="image iphone" />
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container d-flex flex-wrap gap-2 pt-4 pb-2">
+      <div class="p-2">
+        <a class="navbar-brand" href="#">
+          <img src="imagens/spotify.svg" alt="Logo Spotify" />
+        </a>
+      </div>
+      <div class="p-2 d-flex">
+        <ul class="navbar-nav px-4">
+          <h6 class="text-uppercase">Company</h6>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Empregos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Imprensa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Novidades</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav px-4">
+          <h6 class="text-uppercase">Comunidades</h6>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Artistas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Desenvolvedores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Marcas</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav px-4">
+          <h6 class="text-uppercase">Links uteis</h6>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Ajuda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Presentes</a>''
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Player da web</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="social ms-auto p-2">
+        <a href="#"><img src="imagens/instagram.png" alt="Logo do instagram" /></a>
+        <a href="#"><img src="imagens/twitter.png" alt="Logo do twitter" /></a>
+        <a href="#"><img src="imagens/facebook.png" alt="Logo do facebook" /></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script BOOTSTRAP -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

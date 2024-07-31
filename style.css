@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+/* Configurações globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: Helvetica, sans-serif;
+}
+
+/* Configurações da Navbar*/
+.navbar-custom {
+  background-color: #00000099;
+}
+
+.navbar-brand img {
+  height: auto;
+  width: 7rem;
+}
+
+/* Secção 1 */
+.announcement {
+  height: 100vh;
+  background-image: url('imagens/capa.png'), linear-gradient(to right, #cb3582, #9227c3);
+  background-size: contain;
+  background-position: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  perspective: 1000px;
+  background-attachment: fixed;
+}
+
+.announcement h1 {
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.btn-custom {
+  background-color: #9227c3 !important;
+  color: #fff !important;
+  opacity: 0.8;
+}
+
+.btn-custom:hover {
+  background-color: #9227c3;
+  color: #fff;
+  opacity: 1;
+}
+
+/*  Secção 2 */
+
+.about-images,
+.about-content {
+  width: 50%;
+}
+
+.about-images img {
+  width: 40%;
+  height: auto;
+}
+
+/* Secção 3 */
+
+.utility {
+  height: 100vh;
+  background-image: url('imagens/capa.png'), linear-gradient(to right, #cb3582, #9227c3);
+  background-size: contain;
+  background-position: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  perspective: 1000px;
+  background-attachment: fixed;
+}
+
+.utility-content {
+  width: 35%;
+}
+
+.utility-images {
+  width: 40%;
+}
+
+.utility-images {
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  transform: translate(-40%, -40%) rotate(30deg);
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.utility-images img {
+  width: 50%;
+}
+
+.color-purple {
+  color: #7a24f7;
+}
+
+.color-aqua {
+  color: #9befe1;
+}
+
+.color-aqua {
+  color: #9befe1;
+}
+
+/* Footer */
+
+footer {
+  background-color: #000;
+}
+
+footer h6 {
+  color: gray;
+}
+
+@media (max-width: 1200px) {
+  .infos-images img {
+    width: 40%;
+    height: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  .infos-images img {
+    width: 50%;
+    height: 20%;
+  }
+}
+
+@media (max-width: 576px) {
+  .infos-images img {
+    width: 50%;
+    height: 20%;
+  }
+}
